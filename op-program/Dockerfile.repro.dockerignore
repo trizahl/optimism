@@ -5,7 +5,20 @@
 # internal dependencies
 !cannon/
 !op-alt-da/
+!op-node/# exclude everything by default to limit context size and cache miss
+*
+# module definition
+!go.*
+# internal dependencies
+!cannon/
+!op-alt-da/
 !op-node/
+!op-preimage/
+!op-program/
+op-program/bin/
+!op-service/
+!op-supervisor/
+
 !op-preimage/
 !op-program/
 op-program/bin/
